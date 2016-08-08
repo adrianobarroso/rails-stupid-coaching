@@ -1,0 +1,29 @@
+// Place all the styles related to the coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  margin: 200px auto;
+}
+
+// .container {
+//   margin: 10px auto;
+// }
+
+.content {
+  width: 400px;
+  height: 100px;
+  margin: 30px auto; 
+  border-left: 8px solid #CFCFCF;
+  opacity: 0.9;
+}
+
+.content h3 {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.content p {
+  padding-top: 5px;
+  color: #7D8389;
+  font-weight: bold;
+}

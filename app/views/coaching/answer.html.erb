@@ -1,0 +1,24 @@
+<div class="wrapper">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="content">
+          <h3><%= @question %></h3>
+          <p> &#151; You </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="content">
+          <h3><%= @answer %></h3>
+          <p> &#151; Your coach </p>
+        </div>
+      </div>
+      <%= link_to "Ask other question", ask_path %>
+    </div>
+  </div>
+</div>

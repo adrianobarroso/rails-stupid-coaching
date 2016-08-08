@@ -1,0 +1,15 @@
+
+<div class="wrapper">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+          <form action="/answer" method="post">
+            <label for="question">Speak to your coach</label>
+            <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+            <input type="text" id="question" name="query" placeholder="what time is it?">
+            <input type="submit" value="Go on!">
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
